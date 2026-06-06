@@ -20,7 +20,8 @@ public abstract class Pedido {
     private String estado;
     private int tiempoEstimado;
     private LocalTime horaRegistro;
-    
+    private int presentacion;
+    private String nombrepresentador;    
     // Constructor
     public Pedido(int numMesa, String nombreItem, double precio) {
         this.id = contadorId++;
